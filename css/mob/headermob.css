@@ -29,7 +29,7 @@
     justify-content:space-between;
     align-items: center;
     height:70px;
-
+    background-color: #0f0f0f;
 }
 
 .preto-icone{
@@ -64,8 +64,8 @@
     justify-content: center;
     align-items: center;
     height: 80%;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
     border:5px solid orange;
 }
 
@@ -93,8 +93,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
     padding: 10px;
     height: 40%;
     width: 5%;
@@ -113,3 +113,20 @@
     color: black;
     font-weight: 900;
 }
+
+.box-menu-mob{
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    transform: translateY(-115px);
+    flex-wrap: wrap;
+    background: rgba(23, 23, 23, 0.551);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    position: fixed;
+    z-index: 1;
+    opacity: 10;
+
+
+}
+
