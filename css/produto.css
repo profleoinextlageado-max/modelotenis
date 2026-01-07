@@ -1,0 +1,242 @@
+/* //// BOX - PRODUTO //// */
+.box-produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* //// FUNDO LARGURA - PRODUTO //// */
+.fundo-largura-produto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    width: 95%;
+    overflow-y: hidden;
+    overflow-x:hidden;    
+}
+
+/* //// FUNDO LARGURA - PRODUTO //// */
+.div-produtos{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x:hidden;
+}
+
+
+.fundo-produtos-categoria{
+    display: flex;
+    align-items:end;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: -0px;
+}
+
+.fundo-descrição-produto{
+    display: flex;
+    align-items: end;
+    width: 70%;
+    height: 10%;
+    color: white;
+    font-size: 25px;
+    border-bottom:6px solid #7E4400;
+}
+
+.fundo-seta-produto{
+    width: 30%;
+    height: 100%;
+    color: white;
+    font-size: 25px;
+    border-bottom:6px solid #7E4400;
+}
+
+#produto-seta-direita{
+    display: flex;
+    justify-content: right;
+    margin-left: -15px;
+    width: 100%;
+    font-size: 25px;
+    height: 100%;
+    transform: translateY(-25px);
+}
+
+
+
+
+
+
+
+
+
+
+/* //// FUNDO PRODUTO //// */
+
+.fundo-produtos{
+    display: flex;
+    justify-content: left;
+    overflow-x:visible;
+    padding: 10px;
+    width: 100%;
+    height: 90%;
+    margin-left: 100px;
+}
+
+
+.bloco-produto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    width: 350px;
+    height: 400px;
+    background-color: #B87400;
+    border-radius: 20px;
+    transform: scale(0.9);
+    margin-left:-0px;
+    cursor: pointer;
+    transition:0.2s;
+}
+
+.bloco-produto:hover{
+    transform: scale(0.8);
+}
+
+.bloco-produto-medio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    width: 350px;
+    height: 400px;
+    background-color: #F6A700;
+    border-radius: 20px;
+    transform: scale(0.9);
+    margin-left:-0px;
+    cursor: pointer;
+    transition:0.2s;
+}
+
+.bloco-produto-medio:hover{
+    transform: scale(0.8);
+}
+
+.bloco-produto-escuro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    width: 350px;
+    height: 400px;
+    background-color: #7E4400;
+    border-radius: 20px;
+    transform: scale(0.9);
+    margin-left:-0px;
+    cursor: pointer;
+    transition:0.2s;
+}
+
+.bloco-produto-escuro:hover{
+    transform: scale(0.8);
+}
+
+.fundo-img-produto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#img-produto{
+    height: 150px;
+}
+
+.fundo-config-produto{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    padding-left: 10px;
+}
+
+#titulo-produto{
+    font-size: 18px;
+    color: black;
+    width: 90%;
+    font-weight: 700;
+}
+
+#marca-produto{
+    font-size: 16px;
+    width: 60%;
+    font-weight: 600;
+    transform: translateY(-33px);
+}
+
+#preço-produto{
+    font-size: 18px;
+    width: 50%;
+    font-weight: 900;
+    transform: translateY(-40px);
+}
+
+
+.fundo-add-produto{
+    display: flex;
+    padding: 1px;
+    justify-content: center;
+    position: relative;
+    width: 16%;
+    height: 100px;
+    padding: 0.10px;
+    transform: translateY(-100px) translateX(180px);
+    background-color: #0f0f0f;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+
+.add-fundo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    width: 80%;
+    height: 30%;
+    border-radius:150px ;
+    transform: translateY(5px) translateX(0.50px);
+}
+
+.add-fundo-medio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6A700;
+    width: 80%;
+    height: 30%;
+    border-radius:150px ;
+    transform: translateY(5px) translateX(0.50px);
+}
+
+.add-fundo-escuro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7E4400;
+    width: 80%;
+    height: 30%;
+    border-radius:150px ;
+    transform: translateY(5px) translateX(0.50px);
+}

@@ -1,5 +1,8 @@
-
-.preto-pesquisa{
+header{
+    position: fixed;
+    z-index: 4;
+}
+.preto-pesquisa,.box-menu-mob{
     display: none;
 }
 
@@ -74,6 +77,7 @@
     height: 70px;
     padding: 2px;
     color: white;
+    background-color: #0f0f0f;
 }
 
 .preto-logotipo{
