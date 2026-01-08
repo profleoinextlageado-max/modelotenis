@@ -2,10 +2,14 @@ header{
     position: fixed;
     z-index: 4;
 }
-.preto-pesquisa,.box-menu-mob{
+
+
+.preto-pesquisa{
     display: none;
 }
 
+
+/*BOX-AMARELO */
 .box-amarelo{
     display: flex;
     justify-content: space-evenly;
@@ -16,6 +20,8 @@ header{
     height: 30px;
 }
 
+
+/*BOX-AMARELO - marcas */
 .amarelo-marcas{
     display: flex;
     justify-content: space-evenly;
@@ -28,24 +34,43 @@ header{
     width: 25px;
 }
 
+
+/*BOX-AMARELO - Carrossel de texto*/
 .amarelo-carrossel{
     display: flex;
     align-items: center;
     width:65%;
     height: 100%;
 }
+
 #texto-principal{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 90%;
+    font-size: 15px;
+    font-weight: 400;
 }
+
+
+/*BOX-AMARELO - Usuario*/
 .amarelo-usuario{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width:30%;
     height: 100%;
+}
+
+#texto-usuario{
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#texto-usuario:hover{
+    font-weight: 800;
 }
 
 #amarelo-seta-esquerda{
@@ -55,6 +80,7 @@ header{
     font-size: 25px;
     width: 5%;
     height: 100%;
+    cursor: pointer;
 }
 
 #amarelo-seta-direita{
@@ -64,7 +90,9 @@ header{
     font-size: 25px;
     width: 5%; 
     height: 100%;
+    cursor: pointer;    
 }
+
 
 
 /*BOX-PRETO*/
