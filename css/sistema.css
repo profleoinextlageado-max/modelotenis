@@ -1,7 +1,7 @@
 /*SISTEMA DE CARRINHO*/
 
 .box-menu-shop{
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     border-radius:20px ;
     border-bottom-left-radius: 0px;
@@ -50,7 +50,7 @@
 }
 
 #img-produto-carrinho{
-    height: 10%;
+    height: 0%;
 }
 .fundo-texto-produto-carrinho{
     display: flex;
