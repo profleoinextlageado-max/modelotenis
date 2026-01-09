@@ -4,7 +4,7 @@ header{
 }
 
 
-.preto-pesquisa{
+.preto-pesquisa,.box-menu-mob{
     display: none;
 }
 
@@ -134,4 +134,24 @@ header{
     align-items: center;
     width: 10%;
     height: 100%;
+}
+
+#preto-icon-shop,#preto-icon-users{
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#preto-icon-shop:hover{
+    font-size: 18px;
+    color:#F6A700;
+}
+
+#preto-icon-users:hover{
+    font-size:18px;
+    color:#F6A700;
+}
+
+#preto-icon-menu{
+    display: none;
 }

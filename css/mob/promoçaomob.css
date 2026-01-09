@@ -1,0 +1,15 @@
+.fundo-bloco-promoçao{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    height: 500px;
+    margin-left: 0px;
+}
+
+.bloco-promoçao{
+    transition: 0.2s;
+}
+.bloco-promoçao:hover{
+    transform: scale(0.9);
+}
+

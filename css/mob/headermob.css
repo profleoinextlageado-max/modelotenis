@@ -1,5 +1,5 @@
 .amarelo-marcas,.amarelo-usuario,
-.nav-preto,#preto-icon-shop{
+.nav-preto,#preto-icon-shop,#preto-icon-users{
     display: none;
 }
 
@@ -31,6 +31,10 @@
     align-items: center;
     height:70px;
 
+}
+
+#preto-icon-menu{
+    display: flex;
 }
 
 .preto-icone{

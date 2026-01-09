@@ -1,0 +1,61 @@
+/*SISTEMA DE CARRINHO*/
+
+.box-menu-shop{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius:20px ;
+    border-bottom-left-radius: 0px;
+    width: 20%;
+    height: 350px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    z-index: 8;
+    transform: translateY(100px) translateX(958px);
+}
+
+.fundo-seta-shop{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    background-color: orange;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+#seta-shop{
+    color: orange;
+    transform: translateX(-82px) translateY(-2px) rotate(130deg);
+    width: 10%;
+    background-color: orange;
+}
+
+.fundo-sistema-carrinho{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: red;
+}
+
+#bloco-carrinho{
+    display: flex;
+    width: 100%;
+    background-color: blue;
+}
+
+.fundo-img-carrinho{
+    display: flex;
+    width: 50%;
+    background-color: yellow;
+}
+
+#img-produto-carrinho{
+    height: 10%;
+}
+.fundo-texto-produto-carrinho{
+    display: flex;
+    width: 50%;
+    background-color: red;
+}
+
+

@@ -82,12 +82,12 @@
 
 .fundo-produtos{
     display: flex;
-    justify-content: left;
+    justify-content: left; 
     overflow-x:visible;
     padding: 10px;
     width: 100%;
     height: 90%;
-    margin-left: 100px;
+    margin-left: 0px;
 }
 
 
@@ -240,3 +240,8 @@
     border-radius:150px ;
     transform: translateY(5px) translateX(0.50px);
 }
+
+#icon-add-produto{
+    font-size: 19px;
+}
+
